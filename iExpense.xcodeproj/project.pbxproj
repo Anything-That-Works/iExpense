@@ -13,6 +13,7 @@
 		05404F1026ADF2ED009EA32F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05404F0F26ADF2ED009EA32F /* Preview Assets.xcassets */; };
 		05404F1B26ADF2ED009EA32F /* iExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05404F1A26ADF2ED009EA32F /* iExpenseTests.swift */; };
 		05404F2626ADF2ED009EA32F /* iExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05404F2526ADF2ED009EA32F /* iExpenseUITests.swift */; };
+		05404FD926AE141A009EA32F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05404FD826AE141A009EA32F /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		05404F2126ADF2ED009EA32F /* iExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05404F2526ADF2ED009EA32F /* iExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITests.swift; sourceTree = "<group>"; };
 		05404F2726ADF2ED009EA32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05404FD826AE141A009EA32F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				05404F0826ADF2EB009EA32F /* iExpenseApp.swift */,
 				05404F0A26ADF2EB009EA32F /* ContentView.swift */,
+				05404FD826AE141A009EA32F /* AddView.swift */,
 				05404F0C26ADF2ED009EA32F /* Assets.xcassets */,
 				05404F1126ADF2ED009EA32F /* Info.plist */,
 				05404F0E26ADF2ED009EA32F /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				05404F0B26ADF2EB009EA32F /* ContentView.swift in Sources */,
 				05404F0926ADF2EB009EA32F /* iExpenseApp.swift in Sources */,
+				05404FD926AE141A009EA32F /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
